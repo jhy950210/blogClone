@@ -12,4 +12,8 @@ public class TempController {
 		return "/home.html";
 	}
 	
+	@GetMapping("/test/jsp")
+	public String tempImg() {
+		return "test";
+	}
 }
