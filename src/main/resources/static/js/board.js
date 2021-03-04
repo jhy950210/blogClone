@@ -4,11 +4,7 @@ let index = {
 			this.save();
 		});
 		
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> feature/user
+
 		$("#btn-delete").on("click", ()=>{ // function(){} , ()=>{} this를 바인딩하기 위해서!
 			this.deleteById();
 		});
@@ -16,14 +12,12 @@ let index = {
 		$("#btn-update").on("click", ()=>{ // function(){} , ()=>{} this를 바인딩하기 위해서!
 			this.update();
 		});
-<<<<<<< HEAD
+
 		
 		$("#btn-reply-save").on("click", ()=>{ // function(){} , ()=>{} this를 바인딩하기 위해서!
 			this.replySave();
 		});
->>>>>>> Stashed changes
-=======
->>>>>>> feature/user
+
 	},
 	
 	save: function(){
@@ -45,9 +39,7 @@ let index = {
 		alert(JSON.stringify(error));
 	});
 	
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
+
 	},
 	
 	deleteById: function(){
@@ -112,11 +104,9 @@ let index = {
 		alert(JSON.stringify(error));
 	});
 	
->>>>>>> Stashed changes
-	}
-=======
+
 	},
->>>>>>> feature/user
+
 	
 	deleteById: function(){
 		let id = $("#id").text();
